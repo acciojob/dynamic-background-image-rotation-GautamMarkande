@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+ @media (orientation: portrait) {
+      body {
+        background-image: url('https://photovideocreative.com/wordpress/wp-content/uploads/2017/11/Portrait-en-orientation-portrait.jpg');
+      }
+    }
+
+    /* Apply styles based on landscape orientation */
+    @media (orientation: landscape) {
+      body {
+        background-image: url('https://photovideocreative.com/wordpress/wp-content/uploads/2017/11/Paysage-en-orientation-paysage.jpg');
+      }
+    }
